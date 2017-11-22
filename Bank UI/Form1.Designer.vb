@@ -24,19 +24,28 @@ Partial Class Welcome
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Welcome))
         Me.SwipeCard = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'SwipeCard
         '
         Me.SwipeCard.BackColor = System.Drawing.Color.White
         Me.SwipeCard.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.SwipeCard.Cursor = System.Windows.Forms.Cursors.Default
         resources.ApplyResources(Me.SwipeCard, "SwipeCard")
         Me.SwipeCard.Name = "SwipeCard"
+        '
+        'Button1
+        '
+        resources.ApplyResources(Me.Button1, "Button1")
+        Me.Button1.Name = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Welcome
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.SwipeCard)
         Me.Name = "Welcome"
         Me.ResumeLayout(False)
@@ -45,4 +54,5 @@ Partial Class Welcome
     End Sub
 
     Friend WithEvents SwipeCard As TextBox
+    Friend WithEvents Button1 As Button
 End Class

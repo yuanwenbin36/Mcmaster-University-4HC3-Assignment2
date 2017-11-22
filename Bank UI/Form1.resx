@@ -119,20 +119,30 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="SwipeCard.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 15.75pt, style=Bold</value>
+    <value>Verdana, 18pt, style=Bold</value>
   </data>
   <data name="SwipeCard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 201</value>
-  </data>
-  <data name="SwipeCard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>571, 26</value>
+    <value>173, 172</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SwipeCard.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SwipeCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>425, 182</value>
+  </data>
   <data name="SwipeCard.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="SwipeCard.Text" xml:space="preserve">
-    <value>Welcome to XXX Bank, Please Swipe your card</value>
+    <value>Welcome to XXX Bank
+
+
+Please Swipe your card or enter your account number</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SwipeCard.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;SwipeCard.Name" xml:space="preserve">
     <value>SwipeCard</value>
@@ -144,6 +154,30 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;SwipeCard.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>575, 493</value>
+  </data>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 56</value>
+  </data>
+  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>Enter your account number here</value>
+  </data>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -153,7 +187,7 @@
     <value>6, 12</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>680, 473</value>
+    <value>784, 561</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Welcome to Bank</value>
