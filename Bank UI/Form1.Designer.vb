@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class Welcome
     Inherits System.Windows.Forms.Form
 
     'Form 重写 Dispose，以清理组件列表。
@@ -22,9 +22,27 @@ Partial Class Form1
     '不要使用代码编辑器修改它。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Welcome))
+        Me.SwipeCard = New System.Windows.Forms.TextBox()
+        Me.SuspendLayout()
+        '
+        'SwipeCard
+        '
+        Me.SwipeCard.BackColor = System.Drawing.Color.White
+        Me.SwipeCard.BorderStyle = System.Windows.Forms.BorderStyle.None
+        resources.ApplyResources(Me.SwipeCard, "SwipeCard")
+        Me.SwipeCard.Name = "SwipeCard"
+        '
+        'Welcome
+        '
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.Text = "Form1"
+        Me.Controls.Add(Me.SwipeCard)
+        Me.Name = "Welcome"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
 
+    Friend WithEvents SwipeCard As TextBox
 End Class

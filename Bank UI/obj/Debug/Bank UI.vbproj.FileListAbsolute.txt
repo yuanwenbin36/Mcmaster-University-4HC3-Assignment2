@@ -1,0 +1,12 @@
+E:\学习\4HC3\A2\Mcmaster-University-4HC3-Assignment2\Bank UI\bin\Debug\Bank UI.exe.config
+E:\学习\4HC3\A2\Mcmaster-University-4HC3-Assignment2\Bank UI\bin\Debug\Bank UI.exe
+E:\学习\4HC3\A2\Mcmaster-University-4HC3-Assignment2\Bank UI\bin\Debug\Bank UI.pdb
+E:\学习\4HC3\A2\Mcmaster-University-4HC3-Assignment2\Bank UI\bin\Debug\Bank UI.xml
+E:\学习\4HC3\A2\Mcmaster-University-4HC3-Assignment2\Bank UI\obj\Debug\Bank UI.vbprojResolveAssemblyReference.cache
+E:\学习\4HC3\A2\Mcmaster-University-4HC3-Assignment2\Bank UI\obj\Debug\Bank_UI.Welcome.resources
+E:\学习\4HC3\A2\Mcmaster-University-4HC3-Assignment2\Bank UI\obj\Debug\Bank_UI.Resources.resources
+E:\学习\4HC3\A2\Mcmaster-University-4HC3-Assignment2\Bank UI\obj\Debug\Bank UI.vbproj.GenerateResource.Cache
+E:\学习\4HC3\A2\Mcmaster-University-4HC3-Assignment2\Bank UI\obj\Debug\Bank UI.vbproj.CoreCompileInputs.cache
+E:\学习\4HC3\A2\Mcmaster-University-4HC3-Assignment2\Bank UI\obj\Debug\Bank UI.exe
+E:\学习\4HC3\A2\Mcmaster-University-4HC3-Assignment2\Bank UI\obj\Debug\Bank UI.xml
+E:\学习\4HC3\A2\Mcmaster-University-4HC3-Assignment2\Bank UI\obj\Debug\Bank UI.pdb
