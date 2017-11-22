@@ -72,6 +72,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Menu.Designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Welcome.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Deposit.resx">
       <DependentUpon>Deposit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Welcome.resx">
       <DependentUpon>Welcome.vb</DependentUpon>

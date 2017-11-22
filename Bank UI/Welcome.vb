@@ -3,11 +3,15 @@
 
     End Sub
 
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles SwipeCard.TextChanged
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles AccNum.Click
+
+    End Sub
+
+    Private Sub SwipeCard_Click(sender As Object, e As EventArgs) Handles SwipeCard.Click
 
     End Sub
 End Class

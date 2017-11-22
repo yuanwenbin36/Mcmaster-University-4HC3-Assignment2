@@ -23,38 +23,36 @@ Partial Class Welcome
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Welcome))
-        Me.SwipeCard = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.AccNum = New System.Windows.Forms.Button()
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
+        Me.SwipeCard = New System.Windows.Forms.Label()
         Me.SuspendLayout()
+        '
+        'AccNum
+        '
+        Me.AccNum.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        resources.ApplyResources(Me.AccNum, "AccNum")
+        Me.AccNum.Name = "AccNum"
+        Me.AccNum.UseVisualStyleBackColor = False
         '
         'SwipeCard
         '
-        Me.SwipeCard.BackColor = System.Drawing.Color.White
-        Me.SwipeCard.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.SwipeCard.Cursor = System.Windows.Forms.Cursors.Default
         resources.ApplyResources(Me.SwipeCard, "SwipeCard")
         Me.SwipeCard.Name = "SwipeCard"
-        '
-        'Button1
-        '
-        resources.ApplyResources(Me.Button1, "Button1")
-        Me.Button1.Name = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'Welcome
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.Controls.Add(Me.Button1)
+        Me.BackColor = System.Drawing.Color.Linen
         Me.Controls.Add(Me.SwipeCard)
+        Me.Controls.Add(Me.AccNum)
         Me.Name = "Welcome"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents SwipeCard As TextBox
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
-    Friend WithEvents Button1 As Button
+    Friend WithEvents AccNum As Button
+    Friend WithEvents SwipeCard As Label
 End Class
